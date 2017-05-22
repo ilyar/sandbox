@@ -1,0 +1,22 @@
+{
+  "name": "sandbox-jest",
+  "version": "1.0.0",
+  "description": "Sandbox of Jest",
+  "repository": "https://github.com/ilyar/sandbox.git",
+  "homepage": "https://github.com/ilyar/sandbox/tree/master/jest",
+  "main": "lib.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "qa"
+  ],
+  "author": "Ilyar <ilyar.software@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "jest": "^20.0.4"
+  }
+}
