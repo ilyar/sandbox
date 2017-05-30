@@ -6,8 +6,8 @@
   "homepage": "https://github.com/ilyar/sandbox/tree/master/jest",
   "main": "lib.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
+    "prepush": "npm test",
+    "test": "jest --coverage"
   },
   "keywords": [
     "jest",
@@ -17,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^19.2.3",
+    "husky": "^0.13.4",
     "jest": "^20.0.4"
   }
 }
