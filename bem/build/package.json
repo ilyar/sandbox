@@ -1,0 +1,25 @@
+{
+  "name": "sandbox-bem-build",
+  "version": "1.0.0",
+  "description": "Sandbox of BEM build",
+  "repository": "https://github.com/ilyar/sandbox.git",
+  "homepage": "https://github.com/ilyar/sandbox/tree/master/bem/build",
+  "scripts": {
+    "prepush": "enb servet",
+    "test": "enb make"
+  },
+  "keywords": [
+    "bem",
+    "tools",
+    "build"
+  ],
+  "author": "Ilyar <ilyar.software@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "enb": "^1.5.1",
+    "enb-bem-techs": "^2.2.2",
+    "enb-bemxjst": "^8.9.0",
+    "enb-css": "^1.2.2",
+    "enb-js": "^1.1.1"
+  }
+}
