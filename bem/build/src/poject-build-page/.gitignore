@@ -1,0 +1,5 @@
+# bem
+.bem/tmp/
+page/*.*
+!page/*.bemjson.js
+package-lock.json
