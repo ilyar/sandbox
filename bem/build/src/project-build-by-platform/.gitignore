@@ -1,0 +1,4 @@
+# bem
+.bem/tmp/
+bundle/*/*.*
+!bundle/*/*.bemjson.js
