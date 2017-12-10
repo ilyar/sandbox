@@ -1,0 +1,3 @@
+block('Foo')(
+    tag()('span')
+);
