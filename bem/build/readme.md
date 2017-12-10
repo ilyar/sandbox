@@ -1,5 +1,6 @@
 # Sandbox BEM build
 
+    git clone git@github.com:ilyar/sandbox.git
     cd sandbox/bem/build
     npm install
 
