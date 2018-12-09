@@ -1,0 +1,49 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for any technologies",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyar/sandbox.git"
+  },
+  "keywords": [
+    "bem",
+    "jest",
+    "dredd",
+    "node"
+  ],
+  "contributors": [
+    {
+      "name": "Ilyar",
+      "url": "https://github.com/ilyar",
+      "email": "ilyar.software@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilyar/sandbox/issues"
+  },
+  "homepage": "https://github.com/ilyar/sandbox#readme",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g '.commitlint.js'"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "commitizen": "^3.0.5",
+    "cz-customizable": "^5.3.0",
+    "husky": "^1.2.0"
+  }
+}
