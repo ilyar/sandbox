@@ -15,6 +15,7 @@ module.exports = {
   ],
 
   scopes: [
+    {name: 'bitbucket'},
     {name: 'bem'},
     {name: 'dredd'},
     {name: 'jest'},

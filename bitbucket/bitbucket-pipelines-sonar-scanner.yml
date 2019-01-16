@@ -1,0 +1,10 @@
+image: technomatix/php:dev-5.6-cli-jessie
+clone:
+    depth: 20
+pipelines:
+    branches:
+        '{feat*,fix*,hot*}':
+        - step:
+            script:
+                - scripts/bb-sonar-diff.sh
+
