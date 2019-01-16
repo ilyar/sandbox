@@ -1,0 +1,11 @@
+{
+  "name": "dredd-php-silex",
+  "version": "1.0.0",
+  "description": "Sample dredd via silex",
+  "require": {
+    "silex/silex": "~1.2"
+  },
+  "require-dev": {
+    "ddelnano/dredd-hooks-php": "^1.1"
+  }
+}

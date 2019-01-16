@@ -1,0 +1,5 @@
+language: node_js
+before_install:
+  - npm install dredd@5.3.0 --no-optional --global
+before_script:
+  - dredd

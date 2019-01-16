@@ -3,3 +3,4 @@
 ## Samples
 
 - [nodejs-express](nodejs-express)
+- [php-silex](php-silex)
