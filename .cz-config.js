@@ -15,6 +15,8 @@ module.exports = {
   ],
 
   scopes: [
+    {name: 'webpack'},
+    {name: 'vuejs'},
     {name: 'bitbucket'},
     {name: 'bem'},
     {name: 'dredd'},
