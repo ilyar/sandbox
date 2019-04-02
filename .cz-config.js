@@ -15,6 +15,7 @@ module.exports = {
   ],
 
   scopes: [
+    {name: 'golang'},
     {name: 'webpack'},
     {name: 'vuejs'},
     {name: 'bitbucket'},
