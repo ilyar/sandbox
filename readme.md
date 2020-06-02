@@ -15,5 +15,5 @@ git clone
 npm i
 # code
 git add file
-git cz
+npx git-cz
 ```
